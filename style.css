@@ -8,9 +8,9 @@ background-color: pink;
 }
 
   .question{
-    color: #5A9EE6;
-    border: 5px;
+    border-style: dashed;
     border-color: #E65A86;
+    color: #5A9EE6;
   }
 /* h1 {
 color: #FF96B8;
