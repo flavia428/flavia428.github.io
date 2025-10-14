@@ -3,21 +3,26 @@
 background-color: pink;
 } */
 /*this changes the color of my website*/
+.name{
+  color: pink;
 
-h1 {
+  .question{
+    color: blue;
+    
+/* h1 {
 color: yellow;
 font-size: 1rem;
 text-decoration: underline;
-}
+} */
 
-h2 {
+/* h2 {
 color: yellow;
 font-size: 1rem;
 text-decoration: underline;
-}
+} */
 
-p {
+/* p {
 color: yellow;
 font-size: 1rem;
 text-decoration: underline;
-}
+} */
