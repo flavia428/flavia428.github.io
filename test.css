@@ -28,3 +28,12 @@ border-radius: 5px;
   border-bottom: solid 1px #FAF9F5;
   padding-bottom: 12px;
 }
+
+#role {
+  color:#999999;
+  }
+
+  .f-cambria{
+  font-family: Cambria;
+  font-weight: 400;
+  }
