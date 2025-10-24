@@ -46,7 +46,7 @@ box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 position: relative;
 }
 .parent-box {
-position: relative
+position: relative; /* this css decaration is missing a semicolan, this can possibly casue a bug becasue the semicolan tells the browser where one ends and where the netx begins*/
 background-color: #d8efff;
 padding: 30px;
 margin-top: 25px;
@@ -57,9 +57,9 @@ position: absolute;
 top: 10px;
 right: 20px;
 background-color: #9cd0ff;
-padding: 10png;
+padding: 10px; /* this unit is written as 10png instead of 10px, css doesnr regcognize png so the unit wont apply*/
 border-radius: 6px;
-with: 45%;
+width: 45%; /* i changed the word "with" to "width" because i see that it is spelled incorrectly, the broswer can ignore the rule and cause layout issues*/
 box-shadow: 0 2px 6px rgba(0,0,0,0.15);
 }
 
@@ -67,21 +67,21 @@ box-shadow: 0 2px 6px rgba(0,0,0,0.15);
 position: sticky;
 top: 70px;
 background-color: #3a7ca5;
-colour: white;
+color: white; /* i changed the word "colour" to "color" since css only recognize american spelling, the  word "colour" woudlnt work on css*/
 padding: 10px;
 border-radius: 8px;
 z-index: 5;
 }
 
 .info-box {
-background-color: f0f9ff;
+background-color: #f0f9ff; /* the hashtage was missing infront of the hex color, without the hashtage, the css wouldn't be able to read the code and ignore the rule*/
 border-left: 6px solid #3a7ca5;
 padding: 15px;
 margin-top: 20px;
 border-radius: 8px;
 }
 
-#fact-card {
+.fact-card { /* the fact card is written as #fact-card instead of .fact-card, which is the html spelling, no style would apply to it*/
 
 background-color: #e3f8e0;
 border: 2px solid #6fc276;
@@ -98,4 +98,5 @@ color: white;
 text-align: center;
 padding: 20px;
 position: relative;
-z-index 10;
+z-index: 10; /* the colon was missing after z-index, without it the css wouldnt be able to read the code properly and ignore it*/
+} /* i added the final closing brace since i notice it's missing, without the closing brace, the whole css wouldnt work properly, which can make the browser to ignore rest of the style*/
