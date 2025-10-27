@@ -46,7 +46,8 @@ box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 position: relative;
 }
 .parent-box {
-position: relative; /* this css decaration is missing a semicolan, this can possibly casue a bug becasue the semicolan tells the browser where one ends and where the netx begins*/
+position: relative; /* this css declaration is missing a semicolon, this can possibly cause a bug because the semicolon tells the browser where one ends and where the next begins*/
+
 background-color: #d8efff;
 padding: 30px;
 margin-top: 25px;
@@ -57,7 +58,7 @@ position: absolute;
 top: 10px;
 right: 20px;
 background-color: #9cd0ff;
-padding: 10px; /* this unit is written as 10png instead of 10px, css doesnr regcognize png so the unit wont apply*/
+padding: 10px;  /* this unit is written as 10png instead of 10px, css doesn't recognize png so the unit wont apply*/ 
 border-radius: 6px;
 width: 45%; /* i changed the word "with" to "width" because i see that it is spelled incorrectly, the broswer can ignore the rule and cause layout issues*/
 box-shadow: 0 2px 6px rgba(0,0,0,0.15);
@@ -67,14 +68,14 @@ box-shadow: 0 2px 6px rgba(0,0,0,0.15);
 position: sticky;
 top: 70px;
 background-color: #3a7ca5;
-color: white; /* i changed the word "colour" to "color" since css only recognize american spelling, the  word "colour" woudlnt work on css*/
+color: white; /* i changed the word "colour" to "color" since css only recognize american spelling, the  word "colour" wouldn't work on css*/
 padding: 10px;
 border-radius: 8px;
 z-index: 5;
 }
 
 .info-box {
-background-color: #f0f9ff; /* the hashtage was missing infront of the hex color, without the hashtage, the css wouldn't be able to read the code and ignore the rule*/
+background-color: #f0f9ff; /* the hashtag was missing in front of the hex color, without the hashtage, the css wouldn't be able to read the code and ignore the rule*/
 border-left: 6px solid #3a7ca5;
 padding: 15px;
 margin-top: 20px;
