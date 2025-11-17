@@ -1,1 +1,24 @@
+body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #faf7f2; color: #333; }
+header { padding: 20px; }
+header h1 { color: #cc4b37; font-size: 48px; margin: 10px 0; }
+.subtitle { color: #cc4b37; letter-spacing: 2px; }
+nav a { margin: 0 10px; text-decoration: none; color: #cc4b37; font-weight: bold; }
 
+.hero img { width: 100%; }
+.center { text-align: center; }
+.btn { display: inline-block; padding: 10px 20px; background: #cc4b37; color: white; text-decoration: none; margin: 15px 0; }
+
+section { padding: 40px 20px; }
+.locations-container { display: flex; justify-content: center; gap: 20px; flex-wrap: wrap; }
+.location img { width: 300px; border-radius: 6px; }
+
+.menu-section { display: flex; justify-content: space-around; flex-wrap: wrap; }
+.menu-item { margin: 20px; text-align: center; }
+.menu-item img { width: 250px; border-radius: 6px; }
+
+.dinner-section { display: flex; flex-wrap: wrap; align-items: center; padding: 40px; }
+.dinner-section img { width: 50%; min-width: 300px; }
+.dinner-text { width: 40%; min-width: 300px; padding: 20px; }
+
+footer { padding: 20px; text-align: center; }
+footer a { margin: 0 10px; color: #333; text-decoration: none; font-size: 20px; }
