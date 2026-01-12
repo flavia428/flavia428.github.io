@@ -1,74 +1,118 @@
 <!DOCTYPE html>
-<span>18 min</span>
-</div>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Safe Trail</title>
 
-<div class="map-area"></div>
+  <!-- Connect CSS to HTML -->
+  <link rel="stylesheet" href="safetrail.css">
+</head>
 
-<div class="alert">
-<h3>⚠ Safety Alert</h3>
-<p>Dark area ahead. Take caution!</p>
-<div class="alert-buttons">
-<button class="change">Change Route</button>
-<button class="stay">Stay on Path</button>
-</div>
-</div>
-</div>
+<body>
 
-<!-- PAGE 3 -->
-<div class="reports">
-<h2>Safety Reports</h2>
+  <div class="app">
 
-<div class="score">
-<span>Area Safety Score</span>
-<strong>4.3 ★★★★☆</strong>
-</div>
+    <!-- HOME PAGE -->
+    <section class="home">
+      <h1>SAFE TRAIL</h1>
+      <p>Your personal safe route walking app</p>
 
-<div class="report-item">
-<div class="report-left">
-<div class="report-icon">🔦</div>
-<div>
-<strong>Broken streetlight</strong><br />
-<small>5 reports</small>
-</div>
-</div>
-<div class="arrow">›</div>
-</div>
+      <div class="hero-img"></div>
 
-<div class="report-item">
-<div class="report-left">
-<div class="report-icon">👁</div>
-<div>
-<strong>Suspicious activities</strong><br />
-<small>3 reports</small>
-</div>
-</div>
-<div class="arrow">›</div>
-</div>
+      <div class="menu">
+        <div class="menu-item">
+          <div class="icon">▶</div>
+          <span>Get Started</span>
+        </div>
 
-<div class="report-item">
-<div class="report-left">
-<div class="report-icon">❤️</div>
-<div>
-<strong>Safe Zone</strong><br />
-<small>8 reports</small>
-</div>
-</div>
-<div class="arrow">›</div>
-</div>
+        <div class="menu-item">
+          <div class="icon">📍</div>
+          <span>Scan My Route</span>
+        </div>
 
-<div class="report-item">
-<div class="report-left">
-<div class="report-icon">⚠</div>
-<div>
-<strong>Unlit alley</strong><br />
-<small>2 reports</small>
-</div>
-</div>
-<div class="arrow">›</div>
-</div>
-</div>
+        <div class="menu-item">
+          <div class="icon">☎</div>
+          <span>Emergency</span>
+        </div>
+      </div>
+    </section>
 
-</div>
+    <!-- MAP PAGE -->
+    <section class="map">
+      <div class="route-header">
+        <span>Safe Route to Home</span>
+        <span>18 min</span>
+      </div>
+
+      <div class="map-area"></div>
+
+      <div class="alert">
+        <h3>⚠ Safety Alert</h3>
+        <p>Dark area ahead. Take caution!</p>
+
+        <div class="alert-buttons">
+          <button class="change">Change Route</button>
+          <button class="stay">Stay on Path</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- REPORTS PAGE -->
+    <section class="reports">
+      <h2>Safety Reports</h2>
+
+      <div class="score">
+        <span>Area Safety Score</span>
+        <strong>4.3 ★★★★☆</strong>
+      </div>
+
+      <div class="report-item">
+        <div class="report-left">
+          <div class="report-icon">🔦</div>
+          <div>
+            <strong>Broken streetlight</strong><br>
+            <small>5 reports</small>
+          </div>
+        </div>
+        <div class="arrow">›</div>
+      </div>
+
+      <div class="report-item">
+        <div class="report-left">
+          <div class="report-icon">👁</div>
+          <div>
+            <strong>Suspicious activities</strong><br>
+            <small>3 reports</small>
+          </div>
+        </div>
+        <div class="arrow">›</div>
+      </div>
+
+      <div class="report-item">
+        <div class="report-left">
+          <div class="report-icon">❤️</div>
+          <div>
+            <strong>Safe Zone</strong><br>
+            <small>8 reports</small>
+          </div>
+        </div>
+        <div class="arrow">›</div>
+      </div>
+
+      <div class="report-item">
+        <div class="report-left">
+          <div class="report-icon">⚠</div>
+          <div>
+            <strong>Unlit alley</strong><br>
+            <small>2 reports</small>
+          </div>
+        </div>
+        <div class="arrow">›</div>
+      </div>
+    </section>
+
+  </div>
 
 </body>
 </html>
