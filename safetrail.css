@@ -79,12 +79,7 @@ body {
   font-weight: bold;
 }
 
-.map-area {
-  height: 300px;
-  background: #cfcfcf;
-  margin: 16px;
-  border-radius: 16px;
-}
+
 
 .alert {
   background: #083b5c;
